@@ -3,9 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b300 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .blog-post {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>My Blog</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Blog</h1>
+            <p>Sharing my thoughts and experiences</p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="blog-post">
+            <h2>Blog Post Title</h2>
+            <p>Posted on March 16, 2025 by Author</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae lectus pharetra varius. Donec quis neque id ex varius hendrerit.</p>
+        </div>
+        <div class="blog-post">
+            <h2>Another Blog Post</h2>
+            <p>Posted on March 10, 2025 by Author</p>
+            <p>Proin ut ligula sollicitudin, posuere lorem a, malesuada libero. Donec vehicula, risus nec laoreet congue, erat urna vehicula libero, in varius libero elit eu nisi.</p>
+        </div>
+    </div>
+    <footer>
+        <p>My Blog &copy; 2025</p>
+    </footer>
 </body>
 </html>
