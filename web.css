@@ -25,7 +25,7 @@ header ul {
     font-family: serif !important;
 }
 .old-div{
-    background: #fff
+    background-color: #fff !important;
 }
 header li {
     float: left;
