@@ -22,6 +22,9 @@ header ul {
     background-color: #fff !important;
     width: 100% !important;
 }
+.old-heading{
+    text-align: center;
+}
 header li {
     float: left;
     display: inline;
