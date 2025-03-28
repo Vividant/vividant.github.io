@@ -11,13 +11,6 @@ body {
     margin: auto;
     overflow: hidden;
 }
-header {
-    background: #333;
-    color: #4a4040;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #77b300 3px solid;
-}
 header a {
     color: #4a4040;
     text-decoration: none;
@@ -30,6 +23,9 @@ header ul {
 }
 .old{
     font-family: serif !important;
+}
+.old-div{
+    background: #fff
 }
 header li {
     float: left;
