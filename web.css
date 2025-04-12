@@ -22,9 +22,17 @@ header ul {
     background-color: #fff !important;
     width: 100% !important;
 }
-.old-heading{
+.heading{
     text-align: center;
 }
+.modern{
+    font-family: "Cabin"
+}
+
+
+
+
+
 header li {
     float: left;
     display: inline;
