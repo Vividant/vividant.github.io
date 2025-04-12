@@ -2,14 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>My Blog</title>
     <link rel="stylesheet" type="text/css" href="web.css">
+    <style>
+        /* Add responsive styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header, footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        .old-section h1 {
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        .old-section p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+        }
+        .blog-post h2 {
+            font-size: 1.5rem;
+        }
+        .blog-post p {
+            font-size: 0.9rem;
+        }
+        footer p {
+            font-size: 0.8rem;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
-
             <nav>
                 <ul>
                    <!--add a list here if you need to later. the nav element with ul elements enables this.-->
@@ -19,10 +65,15 @@
     </header>
     <section class="old-section">
         <h1 class="old old-heading">The Capstone Journal</h1>
-            <div class="container">
-                <p class="old">For my highschool capstone project, I decided to go with a website. </p>
-                <p class="old">Before this project came up, I had already started learning a little bit of front and back end web design. Using the web markup languages HTML and CSS, everything you see on this page was handmade. </p>
-                <p class="old">I decided that because of the medium I chose for this project, I could simply put my journal <i>inside </i> of its own subject.</p>
+        <div class="container">
+            <p class="old">For my highschool capstone project, I decided to go with a website. </p>
+            <p class="old">Before this project came up, I had already started learning a little bit of front and back end web design. Using the web markup languages HTML and CSS, everything you see on this page was handmade. </p>
+            <p class="old">I decided that, because of the medium I chose for this project, I could simply put my journal <i>inside </i> of its own subject.</p>
+            <p class="old">First, let me introdce you to what exactly is happening behind the scenes. </p>
+            <p class="old">I am using a text editor called Visual Studio Code. This is a free program that allows you to write code in a variety of languages. I am using HTML and CSS, which are the two most common languages used to create websites. </p>
+            <p class="old">HTML is a markup language that is used to create the structure of a website. It is made up of elements, which are the building blocks of a webpage. Each element has a specific purpose and can be styled using CSS.</p>
+            <p class="old">CSS is a style sheet language that is used to control the presentation of a website. It allows you to change the colors, fonts, and layout of a webpage. CSS is used in conjunction with HTML to create a visually appealing website.</p>
+        </div>
     </section>
     <div class="container">
         <div class="blog-post">
