@@ -26,9 +26,17 @@ header ul {
     text-align: center;
 }
 .modern{
-    font-family: "Cabin"
+    font-family: "Cabin" !important
 }
-
+.gradient{
+    background: linear-gradient(to bottom, #ffffff, #000000);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
 
 
