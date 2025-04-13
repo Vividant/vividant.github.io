@@ -94,6 +94,6 @@ footer p {
     width: 100% !important;
 }
 .modern-text {
-    color: #fff;
-    font-family: "Cabin", sans-serif;
+    color: #fff !important;
+    font-family: "Cabin", sans-serif !important;
 }
