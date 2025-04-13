@@ -80,7 +80,7 @@ nav ul li {
     font-family: "Cabin" !important;
 }
 .gradient {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to bottom, #ffffff, #000000);
     padding: 20px;
     width: 100%;
 }
