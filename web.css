@@ -11,6 +11,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 header ul {
     padding: 0;
@@ -69,20 +71,6 @@ nav ul li {
 .new-section {
     background-color: #141414 !important;
     width: 100% !important;
-}
-.showcase h1 {
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;
-}
-.blog-post {
-    margin-bottom: 20px;
-}
-.blog-post h2 {
-    font-size: 1.5rem;
-}
-.blog-post p {
-    font-size: 0.9rem;
 }
 footer {
     text-align: center;
