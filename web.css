@@ -84,3 +84,7 @@ footer p {
     padding: 20px;
     margin-bottom: 20px;
 }
+.modern-section {
+    background-color: #141414 !important;
+    width: 100% !important;
+}
