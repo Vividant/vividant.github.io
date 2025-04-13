@@ -39,7 +39,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 0px;
 }
 nav ul li {
     display: inline;
