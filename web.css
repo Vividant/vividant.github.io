@@ -67,6 +67,7 @@ nav ul li {
 .gradient {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     padding: 20px;
+    width: 100%;
 }
 .new-section {
     background-color: #141414 !important;
