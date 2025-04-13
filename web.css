@@ -69,6 +69,7 @@ nav ul li {
 .modern-section p {
     font-size: 1.2rem;
     line-height: 1.8;
+    padding: 20px;
 }
 .heading {
     text-align: center;
@@ -85,13 +86,6 @@ nav ul li {
     background-color: #141414 !important;
     width: 100% !important;
 }
-footer {
-    text-align: center;
-    padding: 10px 0;
-}
-footer p {
-    font-size: 0.8rem;
-}
 .white {
     background-color: #fff;
     padding: 20px;
@@ -104,4 +98,11 @@ footer p {
 .modern-text {
     color: #fff !important;
     font-family: "Cabin", sans-serif !important;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+footer p {
+    font-size: 0.8rem;
 }
