@@ -7,46 +7,19 @@ body {
     background-color: #fff;
 }
 .container {
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
     overflow: hidden;
 }
 header ul {
     padding: 0;
     list-style: none;
 }
-.old{
-    font-family: serif !important;
-}
-.old-section{
-    background-color: #fff !important;
-    width: 100% !important;
-}
-.heading{
-    text-align: center;
-}
-.modern{
-    font-family: "Cabin" !important
-}
-.gradient{
-    background: linear-gradient(to bottom, #ffffff, #000000);
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-.white{
-    color: #fff !important;
-    
-}   
-
-
-
 header li {
     float: left;
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
 }
 header #branding {
     float: left;
@@ -58,12 +31,68 @@ header nav {
     float: right;
     margin-top: 10px;
 }
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav ul li {
+    display: inline;
+}
+.old {
+    font-family: serif !important;
+}
+.old-section {
+    background-color: #fff !important;
+    width: 100% !important;
+}
+.old-section h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+.old-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.heading {
+    text-align: center;
+}
+.modern {
+    font-family: "Cabin" !important;
+}
+.gradient {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+}
+.new-section {
+    background-color: #141414 !important;
+    width: 100% !important;
+}
 .showcase h1 {
     margin-top: 100px;
     font-size: 55px;
     margin-bottom: 10px;
 }
-.new-section{
-    background-color: #141414 !important;
-    width: 100% !important;
+.blog-post {
+    margin-bottom: 20px;
+}
+.blog-post h2 {
+    font-size: 1.5rem;
+}
+.blog-post p {
+    font-size: 0.9rem;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+footer p {
+    font-size: 0.8rem;
+}
+.white {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
 }
