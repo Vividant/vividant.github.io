@@ -104,6 +104,12 @@ nav ul li {
     color: #fff !important;
     font-family: "Cabin", sans-serif !important;
 }
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    border-radius: 0.3em;
+}
 footer {
     text-align: center;
     padding: 10px 0;
