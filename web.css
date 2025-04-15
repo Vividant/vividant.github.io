@@ -110,14 +110,20 @@ header #branding h1 {
 }
 .transition {
     width: 100%;
-    height: 20px;
+    height: 50px;
 }
 .purple {
-    background-color: #600084;
+    background-color: #d200fc;
 
 }
 .black {
     background-color: #141414;
+}
+.funk-section {
+    background-color: #d200fc;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 footer {
     text-align: center;
