@@ -113,6 +113,9 @@ nav ul li {
     height: auto;
     border-radius: 10px;
 }
+.featured{
+    color:yellow
+}
 .code-text {
     color: #fff;
     font-family: monospace;
