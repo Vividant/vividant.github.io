@@ -96,7 +96,7 @@ header #branding h1 {
     color:yellow !important;
 }
 .block{
-    display: block
+    display: block !important;
 }
 .code-text {
     color: #fff;
