@@ -112,9 +112,11 @@ pre[class*="language-"] {
 }
 .code {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
     background-color: #332f3f;
+    height: 200px
+    
 }
 .code-text {
     color: #fff;
