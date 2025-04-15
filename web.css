@@ -118,6 +118,9 @@ nav ul li {
     font-family: monospace;
     font-size: 1.2rem;
     line-height: 1;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
 }
 footer {
     text-align: center;
