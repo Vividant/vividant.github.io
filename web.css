@@ -144,13 +144,13 @@ header #branding h1 {
     line-height: 1.5;
 }
 .last-section {
-    background-color: #e3d4ca !important;
+    background-color: #eae4e0 !important;
     width: 100% !important;
     padding: 20px;
     box-sizing: border-box;
 }
 .last-text {
-    color: #1e1d1b !important;
+    color: #474642 !important;
     font-family: "Lora", sans-serif !important;
 }
 .last-section h1 {
