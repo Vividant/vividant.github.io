@@ -104,6 +104,10 @@ header #branding h1 {
     word-break: normal;
     word-wrap: normal;
 }
+.center {
+    height: 200px;
+    position: relative;
+}
 .vertical-center {
     margin: 0;
     position: absolute;
