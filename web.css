@@ -110,6 +110,17 @@ pre[class*="language-"] {
     overflow: auto;
     border-radius: 0.3em;
 }
+.code {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #332f3f;
+}
+.code-text {
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+}
 footer {
     text-align: center;
     padding: 10px 0;
