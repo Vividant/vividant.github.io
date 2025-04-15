@@ -114,7 +114,7 @@ nav ul li {
 }
 .code-text {
     color: #fff;
-    font-family: "Courier New", Courier, monospace;
+    font-family: monospace;
     font-size: 1.2rem;
     line-height: 1;
 }
