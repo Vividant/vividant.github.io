@@ -21,34 +21,11 @@ body {
 p {
     margin: 0 0 20px;
 }
-header ul {
-    padding: 0;
-    list-style: none;
-}
-header li {
-    float: left;
-    display: inline;
-    padding: 0 20px;
-}
 header #branding {
     float: left;
 }
 header #branding h1 {
     margin: 0;
-}
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 0px;
-}
-nav ul li {
-    display: inline;
 }
 .old {
     font-family: serif !important;
@@ -116,7 +93,7 @@ nav ul li {
     margin-bottom: 30px;
 }
 .featured{
-    color:yellow important;
+    color:yellow !important;
 }
 .code-text {
     color: #fff;
@@ -126,6 +103,13 @@ nav ul li {
     word-spacing: normal;
     word-break: normal;
     word-wrap: normal;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 footer {
     text-align: center;
