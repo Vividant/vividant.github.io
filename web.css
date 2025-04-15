@@ -127,6 +127,7 @@ header #branding h1 {
 }
 .funk-text{
     font-family: "Space Grotesk", sans-serif !important;
+    color: #fff !important;
 }
 footer {
     text-align: center;
