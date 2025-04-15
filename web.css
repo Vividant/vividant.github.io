@@ -110,20 +110,23 @@ header #branding h1 {
 }
 .transition {
     width: 100%;
-    height: 50px;
+    height: 20px;
 }
 .purple {
-    background-color: #d200fc;
+    background-color: #ff6fcc;
 
 }
 .black {
     background-color: #141414;
 }
 .funk-section {
-    background-color: #d200fc;
+    background-color: #ff6fcc;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+}
+.funk-text{
+    font-family: "Space Grotesk", sans-serif !important;
 }
 footer {
     text-align: center;
