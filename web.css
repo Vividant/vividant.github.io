@@ -108,9 +108,9 @@ nav ul li {
     width: 80%;
     margin: auto;
     padding: 20px;
-    background-color: #332f3f;
-    height: 200px
-    
+    background-color: #27252d;
+    height: 200px;
+    border-radius: 10px;
 }
 .code-text {
     color: #fff;
