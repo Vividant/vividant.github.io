@@ -103,15 +103,7 @@ header #branding h1 {
     word-spacing: normal;
     word-break: normal;
     word-wrap: normal;
-}
-.center {
-    height: 200px;
-    position: relative;
-}
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
+    white-space: pre-wrap;
 }
 footer {
     text-align: center;
