@@ -143,6 +143,24 @@ header #branding h1 {
     font-size: 1.3rem;
     line-height: 1.5;
 }
+.last-text {
+    color: #1e1d1b !important;
+    font-family: "Lora", sans-serif !important;
+}
+.last-section h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px 0;
+}
+.last-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 0;
+}
+.last-section p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
 footer {
     text-align: center;
     padding: 10px 0;
