@@ -110,7 +110,7 @@ nav ul li {
     margin: auto;
     padding: 20px;
     background-color: #27252d;
-    height: 200px;
+    height: auto;
     border-radius: 10px;
 }
 .code-text {
