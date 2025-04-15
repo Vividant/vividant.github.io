@@ -116,7 +116,7 @@ nav ul li {
     margin-bottom: 30px;
 }
 .featured{
-    color:yellow
+    color:yellow important;
 }
 .code-text {
     color: #fff;
