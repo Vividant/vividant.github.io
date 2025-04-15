@@ -134,6 +134,11 @@ header #branding h1 {
     text-align: center;
     padding: 20px 0;
 }
+.funk-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 0;
+}
 footer {
     text-align: center;
     padding: 10px 0;
