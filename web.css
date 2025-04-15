@@ -95,6 +95,9 @@ header #branding h1 {
 .featured{
     color:yellow !important;
 }
+.block{
+    display: block
+}
 .code-text {
     color: #fff;
     font-family: monospace;
